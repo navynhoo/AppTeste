@@ -42,7 +42,7 @@
             app:layout_height="wrap_content"
             app:orientation="horizontal">
 
-            <Button
+            <Button 
                 app:layout_width="match_parent"
                 app:layout_height="wrap_content"
                 app:layout_weight="1"
