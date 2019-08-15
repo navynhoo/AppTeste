@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:layout_width="match_parent"
+    app:layout_height="match_parent"
+    app:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        app:layout_width="match_parent"
+        app:layout_height="match_parent"
+        app:layout_margin="20sp"
+        app:orientation="vertical">
+
+        <ImageView
+            app:layout_width="wrap_content"
+            app:layout_height="wrap_content"
+            app:layout_gravity="center"
+            app:layout_margin="30dp"
+            app:src="@drawable/mugiwara_flag" />
+
+        <EditText
+            app:layout_width="match_parent"
+            app:layout_height="wrap_content"
+            app:drawableRight="@drawable/ic_person"
+            app:hint="Entre com o usuário"
+            app:inputType="textPersonName"
+            app:padding="20dp"
+            app:textSize="20sp" />
+
+        <EditText
+            app:layout_width="match_parent"
+            app:layout_height="wrap_content"
+            app:drawableRight="@drawable/ic_lock"
+            app:hint="Entre com a senha"
+            app:inputType="textPersonName"
+            app:padding="20dp"
+            app:textSize="20sp" />
+
+        <LinearLayout
+            app:layout_width="match_parent"
+            app:layout_height="wrap_content"
+            app:orientation="horizontal">
+
+            <Button
+                app:layout_width="match_parent"
+                app:layout_height="wrap_content"
+                app:layout_weight="1"
+                app:text="ENTRAR" />
+
+            <Button
+                app:layout_width="match_parent"
+                app:layout_height="wrap_content"
+                app:layout_weight="1"
+                app:text="Sair" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
